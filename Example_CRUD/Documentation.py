@@ -1,13 +1,22 @@
 
 
 """
+
+In order to use the script with the test is neccessary to update the api key provided by the crud page
+And change it in the test_CRUD_api.py file under Test -> Steps_definitions
+
 No Issues where encounter during test.
-The test are simple so is espected
+The test are simple so is expected
 
 BDD was used due to an easy way to understand test cases and can be read by anyone also provides a way to input custom data for testing
 
     Tests made using books as the base resource:
     Details of each book: Title, Autor and Year
+        BOOK_DATA = {
+                "title": book_name,
+                "author": autor,
+                "year": year)
+        }
 
         POST: Add a book
         GET: Obtain all entries from the API
