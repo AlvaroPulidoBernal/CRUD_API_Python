@@ -8,6 +8,7 @@ And change it in the test_CRUD_api.py file under Test -> Steps_definitions
 No Issues where encounter during test.
 The test are simple so is expected
 
+PyTest was use since it provides libraries and tools to perform test and give visual feedback on how the test are going
 BDD was used due to an easy way to understand test cases and can be read by anyone also provides a way to input custom data for testing
 
     Tests made using books as the base resource:
@@ -44,5 +45,6 @@ Additional Insights and Recommendations
 -   Implement a way to clean up the test data after each test
 -   Robust error handling
 -   File management to use custom data from it and any configuration
+-   Logging for possible errors either using a simple log file or a tool such as Allure which is a more fancy way to display the results
 
 """
