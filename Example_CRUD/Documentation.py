@@ -43,5 +43,6 @@ Additional Insights and Recommendations
 -   The API being able to provide more requests a day
 -   Implement a way to clean up the test data after each test
 -   Robust error handling
+-   File management to use custom data from it and any configuration
 
 """
